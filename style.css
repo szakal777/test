@@ -59,7 +59,7 @@ p{
 margin-top: 6px;
 }
 
-h1, h2 , h3, h4, label {
+ h2 , h3, h4, label {
 color: #45474F;
 }
 
@@ -74,7 +74,7 @@ line-height: 1.2;
  	text-transform: uppercase;
  }
 
- h3, h4, strong{
+ h1, h3, h4, strong{
  	font-weight: 600;
  }
 
@@ -97,6 +97,7 @@ line-height: 1.2;
  section{
  	clear: both;
  	padding: 90px 0; 
+ 	overflow: auto;
  }
 
 .container{
@@ -116,10 +117,87 @@ line-height: 1.2;
 	margin: 16px 0;
 	text-decoration: none;
 	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
 }
 
-/* Tymczasowy styl dla banera */
+.button-light {
+background: #FFFFFF;
+color: #000000;
+}
+
+.button-dark {
+	background: #A1D76F;
+	color: #FFFFFF;
+}
+
+/* Nagłówek strony */
+
+.top{
+	height: 60px;
+	background: #34495E;
+}
+
+.top a {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.logo { 
+float: left;
+font-weight: 600;
+font-size: 22px;
+line-height: 60px;
+ }
+
+ .main-menu {
+ 	float: right;
+ }
+
+ .main-menu li {
+ 	float: left;
+ 	line-height: 60px;
+ 	padding: 0 10px;
+ }
+
+/* Baner */
 
 .banner {
-	background: #000000
+	color: #FFFFFF;
+	background: #000000;
+	padding: 200px 0;
+	background: url("http://wallpapersdsc.net/wp-content/uploads/2016/09/Food-Images.jpg") 0 -100px; 
+}
+
+.banner h1 {
+	margin-bottom: 30px;
+}
+
+/* Sekcja Intro */
+
+.intro img {
+	margin-bottom: 32px;
+	width: 180px
+	height: 180px;
+}
+
+.intro h3 {
+	color: #A1D76F;
+	margin-bottom: 10px;
+}
+
+/* Sekcja Promocje*/
+
+.promo {
+background: #D15555;
+}
+
+.promo h2 {
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.promo p {
+	color: #EEEEEE;
 }
