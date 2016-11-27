@@ -84,7 +84,24 @@ line-height: 1.2;
 
  /* Kolumny, kontener, sekcji*/
 
- .col-one-third{
+ /*.col-one-third{
+ 	width: 33.3333%;
+ 	float: left;
+ }
+
+ .col-half{
+ 	width: 50%;
+ 	float: left;
+ } */
+
+ .col-one-third, .col-half {
+ 	width: 100%;
+ 	float:none ;
+
+ }  
+
+ @media screen and (min-width: 960px) {
+ 	.col-one-third{ 
  	width: 33.3333%;
  	float: left;
  }
@@ -201,3 +218,26 @@ background: #D15555;
 .promo p {
 	color: #EEEEEE;
 }
+
+/* Sekcja Kontakt */
+
+.contact input {
+	margin-bottom: 16px;
+	border-radius: 2px;
+	border: 1px solid #DDDDDD;
+	padding: 8px;
+	width: 80%;
+}
+
+.contact .col-half {
+	margin-top: 16px;
+}
+
+/* Stopka */
+
+.site-footer {
+	background: #000000;
+	color: #FFFFFF;
+	padding: 16px 0;
+}
+
